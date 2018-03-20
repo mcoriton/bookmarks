@@ -1,0 +1,74 @@
+{
+  "app": {
+    "title": "K ♡ Bookmarks"
+  },
+  "author": {
+    "label": "Auteur",
+    "value": "Auteur : {{author}}"
+  },
+  "width": {
+    "label": "Largeur",
+    "value": "Largeur : {{width}}",
+    "errors": {
+      "invalid": "La largeur doit être un entier positif"
+    }
+  },
+  "height": {
+    "label": "Hauteur",
+    "value": "Hauteur : {{height}}",
+    "errors": {
+      "invalid": "La hauteur doit être un entier positif"
+    }
+  },
+  "duration": {
+    "label": "Durée",
+    "value": "Durée : {{duration}}",
+    "errors": {
+      "invalid": "La durée doit être un entier positif"
+    }
+  },
+  "delete": {
+    "label": "Supprimer"
+  },
+  "edit": {
+    "label": "Editer"
+  },
+  "thumb": {
+    "label": "Vignette",
+    "errors": {
+      "invalid": "L'URL n'est pas une URL valide"
+    }
+  },
+  "url": {
+    "label": "URL",
+    "errors": {
+      "invalid": "L'URL n'est pas une URL valide"
+    }
+  },
+  "type": {
+    "label": "Type",
+    "video": "Video",
+    "image": "Image"
+  },
+  "title": {
+    "label": "Titre"
+  },
+  "save": {
+    "label": "Enregistrer"
+  },
+  "home": {
+    "label": "Acceuil"
+  },
+  "new": {
+    "label": "Nouveau"
+  },
+  "tags": {
+    "label": "Tags"
+  },
+  "tag": {
+    "placeholder": "Tag"
+  },
+  "bookmarks": {
+    "empty": "Pas de bookmark pour le moment. Créez en un en cliquant sur le bouton +"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "prettier.eslintIntegration": true,
+  "prettier.printWidth": 100,
+  "prettier.tabWidth": 2,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "none",
+  "prettier.bracketSpacing": true,
+  "prettier.jsxBracketSameLine": false,
+  "prettier.parser": "babylon",
+  "prettier.semi": true,
+  "prettier.useTabs": false,
+  "prettier.disableLanguages": [],
+  "editor.formatOnSave": true,
+  "javascript.format.enable": false
+}
