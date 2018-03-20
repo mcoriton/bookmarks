@@ -36,7 +36,6 @@ export default class LocalStorageTagApi implements TagApi {
     const saved = this.storage.getItem(id);
     if (!saved) return Promise.reject('Not found');
     const parsed = JSON.parse(saved!);
-    parsed.addedAt = new Date(parsed.addedAt);
     return Promise.resolve(parsed);
   }
   /** @inheritDoc */

@@ -1,6 +1,6 @@
 {
   "app": {
-    "title": "K ♡ Bookmarks"
+    "title": "I ♡ Bookmarks"
   },
   "author": {
     "label": "Auteur",
@@ -70,5 +70,10 @@
   },
   "bookmarks": {
     "empty": "Pas de bookmark pour le moment. Créez en un en cliquant sur le bouton +"
+  },
+  "bookmark": {
+    "addedAt": {
+      "value": "Ajouté {{date}}"
+    }
   }
 }

@@ -35,6 +35,7 @@ import KeyboardArrowRight from 'material-ui-icons/KeyboardArrowRight';
 import FlickrConnector from '../../connectors/FlickrConnector';
 import TagList from '../TagList/TagList';
 import withRoot from '../../withRoot';
+import * as moment from 'moment/moment';
 const validUrl = require('valid-url');
 export declare type StyledProp =
   | 'content'
@@ -455,7 +456,15 @@ class BookmarkPage extends React.Component<
           </Typography>
         </Toolbar>
 
-        <form className={classes.form} onSubmit={this.onSubmit}>
+        {this.state.bookmark && (
+          <Typography variant="subheading">
+            {i18n.t('bookmark.addedAt.value', {
+              date: moment(this.state.bookmark.addedAt).calendar()
+            })}
+          </Typography>
+        )}
+
+        <form className={classes.form} onSubmit={this.onSubmit} noValidate>
           {loading && <CircularProgress />}
           <FormControl
             fullWidth
